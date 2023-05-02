@@ -1,0 +1,312 @@
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+html{
+  font-size: 67.5%;
+}
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.welcome-login-header , .welcome-login-header p {
+  height: 2.3rem;
+  background-color: rgba(44, 33, 114, 0.865);
+  font-weight: 400;
+  font-size: 1.4rem;
+  letter-spacing: .1rem;
+  text-align: center;
+  color: white;
+}
+.welcome-login-header .logintoknow{
+  color:rgb(245, 84, 15);
+  letter-spacing: 0.2rem;
+  font-size: 500;
+  text-decoration: none;
+  margin-left: .5rem;
+  transition: 0.4s;
+}
+.welcome-login-header .logintoknow:active{
+  color: rgb(206, 32, 32);
+  letter-spacing: 0.3rem;
+}
+.main-bg{
+ 
+  background-image:linear-gradient(rgba(0, 0, 0, 0.502) ,rgba(255, 255, 255, 0.11)), url(pexels-photo-2730355.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200vh;
+  filter: brightness(13
+  0%);
+  width: 100%;
+  
+}
+
+.first-flexing{
+  top: 1rem;
+ align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+}
+.info{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: fit-content;
+  margin-right: 2rem;
+  margin-left: 3.6rem;
+  align-items: center;
+}
+
+.first{
+  position: absolute;
+  top: 1rem;
+   width: 100%;
+   align-items: center;
+}
+
+h1,h2,h3{
+font-size: 2rem;
+letter-spacing: .1rem;
+font-weight: 640;
+color: white;
+
+}
+.onlytimesaved{
+  padding-top: 1rem;
+}
+p1{
+
+  font-size: 5.6rem;
+  font-weight: 550;
+  color:rgb(245, 84, 15);
+}
+p2{
+  font-size: 5.6rem;
+  font-weight: 550;
+  color:rgba(149, 90, 220, 0.966);
+}
+p3{
+  margin-top: 3rem;
+  font-size: 4.5rem;
+  font-weight: 550;
+  color: white;
+}
+.time{
+  margin-left: 10rem;
+  margin-right: 4rem;
+margin-right: 12rem;
+}
+.ele{
+margin: 0rem 3rem;
+}
+.eletime{
+margin-top: 1rem;
+margin: 0rem 3rem;
+}
+
+p4{
+  font-size: 9rem;
+  font-weight: 500;
+  color: white;
+}
+
+.second-flex-main{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.second-flexing{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.b button{
+  position: relative;
+  margin: 3rem 2rem;
+  background-color: rgba(34, 33, 33, 0.626);
+  height: 9rem;
+  width: 9rem;
+  border-radius: 2rem;
+  border: none;
+
+}
+
+
+.brave-div{
+margin-top: 2rem
+;
+position: relative;
+background-color: rgba(0, 0, 0, 0.548);
+margin-left: 30rem;
+width: 30rem;
+height: 30rem;
+opacity: 0.9;
+border-radius: 1rem;
+
+
+}
+
+.brave-rewards{
+  position: relative;
+  font-size: 2.3rem;
+  color: white;
+  font-weight: 650;
+  height: 6rem;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem; 
+  background-color: rgba(0, 0, 0, 0.516);
+  
+}
+
+.brtextimg{
+  position: absolute;
+  left: 1.3rem;
+  top: 1.2rem;  
+}
+.brtext{
+  position: absolute;
+  top: 1.5rem;
+  left: 6.5rem;
+}
+.brave-call{
+  position: relative;
+  font-size: 2.3rem;
+  color: white;
+  font-weight: 710;
+  background-color: rgba(0, 0, 0, 0.808);
+ 
+}
+.callhead{
+  position: absolute;
+  margin-top: 1.5rem;
+  margin-left: 6.5rem;
+}
+
+.call{
+  position: absolute;
+  margin-top: 8rem;
+  margin-left: 5.5rem;
+  margin-right: 3rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+ .call .start-call{
+  position: absolute;
+  top: 10.5rem;
+  left: 50%;
+  transform: translate(-60%,-50%);
+  color: white;
+  text-decoration: none;
+  background-color: rgb(78, 56, 224);
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 5rem;
+  width: 14rem;
+  
+}
+
+
+.b button::after{
+  position: absolute;
+  padding-top:.8rem;
+  padding-bottom:.8rem;
+  width: 5rem;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0);
+  height: 1.4rem;
+  border-radius: 1rem;
+  top:-10%;
+  font-weight: 600;
+
+}
+.b button:hover::after{
+  content: 'Edit';
+  background-color: rgba(0, 0, 0, 0.699);
+  color: white;
+  
+}
+
+.brave-div .cards{
+  width: 30rem;
+  height: 5rem;
+  position: absolute;
+  top: 105%;
+  border-radius: 1rem;
+  background-color: black;
+  background:linear-gradient(to right,rgba(0, 0, 0, 0.856)
+  ,rgba(0, 0, 0, 0.523));
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 650;
+  color: white;
+  padding-top: 1.1rem;
+  transition: 0.4s;
+}
+.cards:hover{
+  background:linear-gradient(to left,rgba(0, 0, 0, 0.838)
+  ,rgba(0, 0, 0, 0.564));
+}
+
+.thirdflex{
+ display: block;
+ margin-top: 15rem
+
+}
+
+
+.third-header ,.thirdheadoptions{
+ font-size: 2.3rem;
+ display: flex;
+ margin-right: 2rem;
+ flex-wrap: wrap;
+ margin: 0rem 1rem;
+ justify-content: end;
+ font-weight: 710;
+ color: rgb(228, 224, 224);
+ filter: brightness(90%);
+ margin-right: 3rem;
+ transition: 0.5s;
+}
+.thirdheadoptions:hover{
+  color: white;
+  letter-spacing: 0.2rem;
+  filter: brightness(130%);
+}
+.newqsbg{
+  display: block;
+}
+.news{
+  align-items: center;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-right: 25rem;
+  margin-left: 25rem;
+  
+   margin-top: 16rem;
+   width: 100rem;
+   height: 40rem;
+  background-color: rgba(0, 0, 0, 0.667);
+  border-radius: 2rem;
+  opacity: 0.9;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  font-size: 2.8rem;
+  line-height: 1.3;
+  font-weight: 600;
+  color: whitesmoke;
+  letter-spacing: 0.3rem;
+}
+.nzinf{
+  margin-top: 5rem;
+}
